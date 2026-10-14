@@ -1,6 +1,6 @@
 # BROKEN ON PURPOSE.
 # Run it, read the last line, then fix it.
 
-import maths
+import math # its math not maths
 
-print(maths.sqrt(16))
+print(math.sqrt(16))

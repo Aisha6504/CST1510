@@ -1,4 +1,4 @@
-# Week 3 — Extra Practice Projects
+''' # Week 3 — Extra Practice Projects
 
 ---
 
@@ -70,4 +70,20 @@ Then call `result = operations[operator](n1, n2)`.
 ---
 
 Stuck on why a function returning nothing gives you `None`? That's
-`01 - Defining and Calling Functions`, section 4, in this folder.
+`01 - Defining and Calling Functions`, section 4, in this folder.'''
+Define a function called `get_computer_choice()`.
+3. Inside it, create a variable `number` and set it to `random.randint(0, 2)`.
+4. Use `if`/`elif`/`else` to check `number`:
+   - if it is `0`, return `"rock"`
+   - if it is `1`, return `"paper"`
+   - otherwise, return `"scissors"`
+5. Define a function called `decide_winner(user_choice, computer_choice)`.
+6. Inside it, if `user_choice` equals `computer_choice`, return `"draw"`.
+7. Add an `elif` that returns `"user"` if the user wins
+   (rock beats scissors, paper beats rock, scissors beats paper).
+8. Add an `else` that returns `"computer"`.
+9. Outside the functions, use `input()` to ask the user for their choice
+   and store it in a variable called `user_choice`.
+import random
+def get_computer_choice():
+

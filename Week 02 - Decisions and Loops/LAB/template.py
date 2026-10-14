@@ -3,7 +3,7 @@ RECORD CHECK  -  my version
 ===========================
 
 Name  : Aisha Ahmed M01100999
-Lane  :  AI      (delete two)
+Lane  :  AI   
 Date  : 03/10/2026
 
 Run it:   python template.py
@@ -12,12 +12,7 @@ Work through the numbered sections in order. Each one tells you what it must do.
 Delete these instructions as you replace them with your code.
 """
 
-# ==================================================================== INPUT
-# 1. Ask for your three values.
-#
-#    - the first is TEXT      (a name, a hostname, an IP)  -> no conversion needed
-#    - the second is a NUMBER (use float(), not int())
-#    - the third  is a NUMBER (use float(), not int())
+
 
 label = input("Please enter a Name:")  # will ask for a name
 value = float(input("Please enter a number:"))    # replace with an input() call, converted with float()
